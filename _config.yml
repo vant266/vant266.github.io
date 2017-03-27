@@ -7,10 +7,9 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            Statistical Think
+title:            Notes
 tagline:          'A Jekyll theme'
-description:      'Writing and commentaries on statistical practice, machine learning,
-                    algorithm design, and mathematical puzzles.'
+description:      'Writing and commentaries'
 url:              "http://vant266.github.io"
 baseurl:          /
 
@@ -19,7 +18,7 @@ author:
   url:
 
 paginate:         5
-gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist]
 paginate_path: "page:num"
 
 # Custom vars
